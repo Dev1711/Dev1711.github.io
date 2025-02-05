@@ -1,26 +1,28 @@
 body {
-    overflow: hidden;
-    background-color: #213555;
-    padding: 20px;
-    margin: auto;
-    margin-top: 170px;
-    width: 690px;
-    height: auto;
-    border: 15px solid #9d733de6;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
     color: #cfb5aafc;
     font-family: sans-serif;
+    box-shadow: 10px 10px 10px 10px; 
+}
 
+.box {
+    border: 15px solid #9d733de6;
+    background-color: #213555;
+    padding: 20px; 
+    width: 690px;
 }
 
 h1 {
     text-align: center;
-    font-size: 50px;
-    
+    font-size: 50px;    
 }
 
 h2{
     font-size: 35px;
-}
+} 
 
 p{
     font-size: 25px;
@@ -31,7 +33,6 @@ ul.first{
     
     list-style-type: square;
     font-size: 25px;
-    font-weight: 500;
-    
+    font-weight: 500;    
 }
 
